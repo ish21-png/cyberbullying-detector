@@ -4,7 +4,7 @@ from joblib import load
 
 st.title("🧠 Cyberbullying Detector")
 
-model = load("models/model_pipeline.joblib")
+model = load("/model_pipeline.joblib")
 
 text = st.text_area("Enter a comment:")
 if st.button("Analyze"):
